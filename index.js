@@ -36,12 +36,12 @@ bot.onText(/\/start/, (msg) => {
     const chatId = msg.chat.id;
     bot.sendPhoto(
         chatId,
-        'https://your-website.com/your-image.jpg',
+        'https://flowxo.com/wp-content/uploads/2021/03/Telegram-Logo-512x512.png',
         {
             caption: 'Welcome to the WebApp!',
             reply_markup: {
                 inline_keyboard: [
-                    [{ text: 'Open WebApp', url: 'http://localhost:3000/' }],
+                    [{ text: 'Open WebApp', url: 'https://try-2-s86s.onrender.com' }],
                 ],
             },
         }
